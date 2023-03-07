@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Photo</title>
+
+    <!-- Swiper Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Google Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons From Fontawesome-->
+    <script src="https://kit.fontawesome.com/0ae0a65f6f.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JS Link -->
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+   <nav>
+        <div class="wrapper">
+            <button class="burger-icon"><i class="fa-solid fa-bars"></i></button>
+            <div class="nav-items">
+                <a href="#">home</a>
+                <a href="#about">about</a>
+                <a href="#gallery">gallery</a>
+                <a href="#contact">contact</a>
+            </div>
+        </div>
+   </nav>
+
+   <header class="header">
+        <div class="hero-bg"></div>
+        <div class="hero-text"></div>
+   </header>
+
+   <main>
+        <section class="about wrapper" id="about">
+            <h2 class="section-title about-me">About Me</h2>
+            <p class="about-info"> My name is Alicja and I am a photographer. My passion is to capture passing moments that will never come back. Seeing people in daily life, document their happy days and important moments, changing seasons and the beauty of nature around us. It is important part of our life to save the moments!</p>
+        </section>
+
+        <section class="cards-wrapper my-work" id="gallery">
+            <h2 class="section-title">See some of my work</h2>
+            <div class="cards-gallery">
+                <div>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide slide-1"></div>
+                            <div class="swiper-slide slide-2"></div>
+                            <div class="swiper-slide slide-3"></div>
+                            <div class="swiper-slide slide-4"></div>
+                            <div class="swiper-slide slide-5"></div>
+                            <div class="swiper-slide slide-6"></div>
+                            <div class="swiper-slide slide-7"></div>
+                            <div class="swiper-slide slide-8"></div>
+                            <div class="swiper-slide slide-9"></div>
+                            <div class="swiper-slide slide-10"></div>
+                            <div class="swiper-slide slide-11"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact wrapper" id="contact">
+            <h2 class="section-title"></h2>
+            <h3>Contact</h3>
+            <p><i class="fa-solid fa-phone"></i>+46 501 121 212</p>
+            <p><i class="fa-solid fa-at"></i>mymail@gmail.com</p>
+            <p>Storgatan 15</p>
+            <p>111 22 Stockholm</p>
+            <div class="icon-box">
+                <a><i class="fa-brands fa-square-twitter"></i></a>
+                <a><i class="fa-brands fa-square-facebook"></i></a>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </section> 
+   </main>
+
+   <footer>
+        <p>&copy; 2023 Photo</p>
+   </footer>
+    
+</body>
+</html>
